@@ -1,0 +1,197 @@
+
+.navbar img{
+	width: 100px;
+	
+}
+
+body {
+	margin: 25px;
+	background-color: #01304C;
+}
+
+.bg-body-tertiary{
+	background: none !important;
+}
+
+.navbar-brand{
+	padding-top: 0px;
+}
+
+.navCont{
+	position:sticky;
+	top:0px;
+	background-color: #01304C;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+	margin: 0px 30px;
+	color: white;
+}
+
+.btn-outline-success{
+	border-color: white;
+	color: white;
+	padding: 5px 30px;
+	border-radius: 3px;
+	
+}
+
+.btn:hover{
+	background-color: #1DAED5;
+	border-color: #1DAED5;
+}
+
+.nav-link{
+	font-size: 13px;
+}
+
+.container .heroImage{
+	 margin: 100px 0px;
+}
+
+.overlay-text {
+      position: absolute;
+}
+
+.content{
+	color: white;
+	text-align: center;
+	background:url("./assets/HeroBG.png") no-repeat center center ;
+	background-size: 400px;
+	height: 80vh;
+	padding: 90px 0px;
+	justify-content: center;
+}
+
+h6, h3,p{
+	color:white;
+	margin-top:0px;
+}
+
+.mohamed h6{
+	margin-top: 54px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.mohamed h1{
+	font-size: 50px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .mohamed h1 {
+    font-size: 20px;
+  }
+	.mohamed h6{
+		font-size: 12px;
+		padding-top: 40px;
+	}
+
+  .content {
+    background-size: 300px; 
+	text-align: center;
+	justify-content: center;
+  }
+	.customHero{
+		padding:0px;
+	}
+	.aboutCont{
+		margin:0px !important;
+		padding:0px !important;
+	}
+	.aboutImage{
+		margin-top: 50px !important;
+		margin-bottom: 10px;
+		padding-top:0px;
+}
+	.buttons{
+		text-align: center;
+	}
+	section{
+		background-color: white;
+		padding: 0px 15px;
+}
+}
+
+.aboutImage{
+	margin-top: 400px;
+}
+
+
+.about{
+	margin-top:0px;
+}
+
+.about h6{
+	font-weight:lighter;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.about p{
+	font-weight:lighter;
+}
+
+.buttons .talk{
+	border-color: white;
+	color: white;
+	margin-top: 30px;
+	padding: 5px 30px;
+	border-radius: 3px;
+}
+
+.buttons .talk:hover{
+	background-color: #1DAED5;
+	border-color: #1DAED5;
+}
+
+.buttons .read{
+	background-color: #1DAED5;
+	border-color: #1DAED5;
+	margin-top: 30px;
+	margin-right:10px;
+	padding: 5px 30px;
+	border-radius: 3px;
+}
+
+
+
+form h3{
+	color: black;
+	margin-top: 30px;
+	font-weight: bold;
+}
+
+
+.formCont{
+	margin-top: 100px;
+}
+
+.form-control{
+	margin-top: 20px;
+	border-radius: 2px;
+}
+
+.submit{
+	background-color: #01304C;
+	border-color: #01304C;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 10px 30px;
+	border-radius: 2px;
+	
+}
+
+section{
+	  background: #fff !important;
+	  width: 100% !important;
+	  max-width: 100% !important;
+	  margin: 0 !important;
+	  display: block !important;
+}
+
+
+
+
